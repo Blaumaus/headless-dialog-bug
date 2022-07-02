@@ -1,0 +1,495 @@
+{
+  "apiNotifications": {
+    "somethingWentWrong": "Något gick fel, försök igen",
+    "emailRegistered": "En användare med denna e-postadressen finns redan",
+    "leakedPassword": "Det angivna lösenordet är läckt, vänligen använd ett annat",
+    "rateLimitHit": "För många förfrågningar, vänligen försök igen senare",
+    "cancelSubFirst": "Vänligen avbryt din betalda prenumeration först",
+    "accountDeleted": "Ditt konto har raderats",
+    "accountDeleteError": "Fel när du raderar ditt konto",
+    "roleUpdated": "User's role has been changed",
+    "roleUpdateError": "Error occurred while changing user's role",
+    "userInvited": "The user has been invited to your project",
+    "userInviteError": "Error occurred while inviting the user to your project",
+    "userRemoved": "The user has been removed from your project",
+    "userRemoveError": "Error occurred while removing the user from your project",
+    "quitProjectError": "Error occurred while quitting the project",
+    "quitProject": "You have quit the project",
+    "acceptInvitationError": "Error occurred while accepting the project invitation",
+    "acceptInvitation": "The project invitation has been accepted",
+    "subscriptionUpdated": "Your subscription has been updated",
+    "generate2FAError": "Error occurred while generating 2FA code"
+  },
+  "common": {
+    "features": "Funktioner",
+    "docs": "Doks",
+    "getStarted": "Kom igång",
+    "billing": "Fakturering",
+    "pricing": "Prissättning",
+    "faqs": "Vanliga frågor",
+    "you": "Du",
+    "explore": "Utforska",
+    "liveDemo": "Live-demo",
+    "dashboard": "Översikt",
+    "logout": "Logga ut",
+    "save": "Spara",
+    "continue": "Fortsätta",
+    "error": "Fel",
+    "close": "Stänga",
+    "cancel": "Avbryta",
+    "gotIt": "Uppfattat",
+    "settings": "Inställningar",
+    "openMenu": "Öppna meny",
+    "closeMenu": "Stäng menyn",
+    "learnMore": "Läs mer",
+    "yes": "Ja",
+    "no": "Nej",
+    "is": "är",
+    "isNot": "är inte",
+    "invite": "Invite",
+    "pending": "Pending",
+    "accept": "Accept",
+    "reject": "Reject",
+    "delete": "Delete",
+    "quit": "Quit",
+    "enable": "Enable",
+    "disable": "Disable"
+  },
+  "main": {
+    "ukrSupport": "Stöd den ukrainska armén att bekämpa den ryska invasionen.",
+    "slogan": "En <span>kraftfull</span> analysplattform som respekterar <span>användarens integritet<span>",
+    "trackEveryMetric": "Spåra alla statistik du behöver utan att invadera användarnas integritet.",
+    "description": "Swetrix erbjuder en avancerad och anpassningsbar analystjänst för dina webbapplikationer.",
+    "signup": "Registrera dig, det är gratis!",
+    "signupTerms": "Genom att registrera dig godkänner du våra <tos>villkor</tos> och <pp>sekretesspolicy</pp>.",
+    "techDetails": "Vill du veta mer tekniska detaljer?",
+    "lookAtDocs": "Titta på dokumentationen och live demonstrationssidor.",
+    "readyToStart": "Redo att komma igång?",
+    "exploreService": "Utforska vår tjänst eller skapa ett konto.",
+    "faq": {
+      "title": "Få några frågor besvarade",
+      "list": [
+        {
+          "question": "Behöver Swetrix-spårning cookies?",
+          "answer": "Nej, det gör det inte. Vårt analysskript innehåller inga cookies. Du kan använda vår tjänst utan att behöva använda ett cookie-meddelande på din webbplats.\nVi följer sådana bestämmelser som GDPR, PECR, CCPA, ePrivacy och COPPA."
+        },
+        {
+          "question": "Använder/delar/säljer du slutanvändarens data?",
+          "answer": "Nej, det gör vi inte. Dessutom är alla uppgifter som vi samlar in anonymiserade. Vi lagrar inga uppgifter som gör det möjligt för oss att identifiera en specifik användare. Vi försöker vara så öppna och respektera integriteten som möjligt."
+        },
+        {
+          "question": "Måste jag betala för din tjänst?",
+          "answer": "Vi erbjuder både gratis och betalda konton. De flesta av funktionerna i de betalda nivåerna ingår i den fria nivån, men de betalda nivåerna erbjuder ett större antal händelser per månad. Du kan när som helst uppgradera eller nedgradera din kontoprenumeration."
+        },
+        {
+          "question": "Är min data säker?",
+          "answer": "Vi följer alla standarder när det gäller säkerheten för datalagring och behandling. All data lagras säkert, kan inte nås av tredje part och all kommunikation sker alltid via krypterade kanaler (HTTPS)."
+        }
+      ]
+    },
+    "features": [
+      {
+        "name": "Öppen källkod",
+        "description": "Swetrix är helt öppen källkod och tillgänglig för alla att utforska. Vi spårar bara data som vi deklarerar."
+      },
+      {
+        "name": "Fullt händelsespårning",
+        "description": "Hos oss kan du inte bara spåra din trafik utan även anpassade händelser som knappklick eller registreringar."
+      },
+      {
+        "name": "Webbläsare tillägg",
+        "description": "Visa omedelbart de viktigaste insikterna, få meddelanden om trafikspikar och mycket mer utan att du behöver besöka webbplatsen."
+      },
+      {
+        "name": "Ingen cookie banner behövs",
+        "description": "Vi gör ingen riktad reklam eller profilering och vi använder oss inte alls av spårningscookies. Vår affärsmodell är att sälja programvara, inte data."
+      },
+      {
+        "name": "Vi är snabba",
+        "description": "Vi använder globala CDN för att betjäna våra applikationer och våra analysskript laddar gånger snabbare än konkurrenterna."
+      },
+      {
+        "name": "Jämför, utforska och njut av data",
+        "description": "Du kan visa data efter valda kategorier och även korrelera statistik, t.ex. separera unika användare från vanliga sidvisningar."
+      }
+    ],
+    "custSupport": "Kunde du inte hitta svaret du letar efter? Nå ut till vårt <mail>kundtjänst</mail> team.",
+    "whyUs": "Varför oss",
+    "ourStats": "Vår statistik",
+    "statsDesc": "Swetrix bygger på användarnas förtroende för tjänsten och kan även hantera tusentals användare och webbplatser.",
+    "users": "Registrerade användare",
+    "websites": "Tillagda webbplatser",
+    "pageviews": "Spårade sidvisningar"
+  },
+  "auth": {
+    "recovery": {
+      "title": "Konto återställning",
+      "save": "Spara nytt lösenord",
+      "newPassword": "Ditt nya lösenord",
+      "updated": "Ditt lösenord har uppdaterats"
+    },
+    "forgot": {
+      "sent": "Ett e-mail för att återställa lösenordet har skickats till den angivna adressen",
+      "reset": "Återställ lösenord"
+    },
+    "signin": {
+      "title": "Logga in på ditt konto",
+      "forgot": "Glömt lösenord?",
+      "button": "Logga in",
+      "2fa": "Two-factor authentication",
+      "2faDesc": "Open the two-factor authentication app on your device to view your authentication code and verify your identity.\nYou can also use your backup code.",
+      "2faUnavailable": "Don't have access to 2FA?\n<ctl>Contact support</ctl>.",
+      "6digitCode": "6-digit authentication code"
+    },
+    "signup": {
+      "button": "Registrera dig",
+      "tos": "Jag accepterar <tos>Villkor</tos> och <pp>Integritetspolicy</pp>.",
+      "email": "E-postadress",
+      "create": "Skapa ditt konto"
+    },
+    "verification": {
+      "success": "Din e-postadress har verifierats framgångsrikt!"
+    },
+    "common": {
+      "signinInstead": "Logga in istället",
+      "signupInstead": "Registrera dig istället",
+      "password": "Lösenord",
+      "noRemember": "Minns inte mig.",
+      "repeat": "Upprepa lösenord",
+      "hint": "Längre än {{amount}} tecken",
+      "xCharsError": "Lösenordet måste bestå av minst {{amount}} tecken.",
+      "noMatchError": "Lösenord måste matcha.",
+      "badEmailError": "Ange en giltig e-post.",
+      "passwordTooLong": "Det angivna lösenordet är för långt, maxlängd är {{amount}} tecken",
+      "tosError": "Du måste acceptera våra villkor och vår sekretesspolicy för att kunna använda våra tjänster.",
+      "email": "E-post",
+      "signin": "Logga in",
+      "checkLeakedPassword": "Kontrollera om lösenordet är läckt",
+      "checkLeakedPasswordDesc": "När aktiverad kontrollerar vi ditt lösenord med <db>{{database}}</db>databasen. Vi skickar inte ditt lösenord till tjänsten. Först hashar vi ditt lösenord ( med SHA1) och skickar endast de första fem tecknen i hashen till tjänsten. Tjänsten returnerar alla läckta lösenord som börjar med dessa 5 tecken. I vår del kontrollerar vi om något av dessa tecken stämmer överens med ditt lösenord. Vi visar dig en varning om det har läckt ut tidigare. Vi lagrar aldrig ditt lösenord i klartext."
+    }
+  },
+  "features": {
+    "feature1Name": "Transparens",
+    "feature1Content": "På Swetrix anser vi att alla har rätt till integritet och transparens, särskilt när det gäller analyser.\nVi samlar inte in mer information än vad vi <docs>begär</docs>, all data lagras på servrar som är fysiskt placerade i Europeiska unionen och vårt analysskript är offentligt tillgängligt och åtkomligt för alla på vår <gh>Github</gh>.",
+    "feature2Name": "Webbläsare tillägg",
+    "feature2Content": "Behöver du snabbt se statistik för din webbplats?\nVi har utvecklat <chrome>Chrome</chrome> och <firefox>Firefox</firefox> tillägg för detta ändamål.\nMed hjälp av dessa kan du omedelbart visa de viktigaste insikterna, få meddelanden om trafikspikar och mycket mer!",
+    "ready": "Redo att lära känna dina användare?",
+    "start": "Börja använda Swetrix idag.",
+    "list": [
+      {
+        "name": "Enkelhet",
+        "content": "När vi skapade vår tjänst försökte vi göra den så enkel och flexibel som möjligt.\nInga fler förvirrande mått och komplicerade instrumentpaneler - med oss kan du ha kontroll över alla dina projekt och data på ett enkelt och okomplicerat sätt."
+      },
+      {
+        "name": "Spårning av sidvisningar",
+        "content": "Swetrix erbjuder möjligheten att spåra sidvisningar, inklusive unika visningar och användarflöden.\nAlla visningar innehåller ett stort antal data, t. ex. användarens land, lokalitet, enhetstyp, sidladdningstid och mycket mer.\nVi använder inte cookies eller någon annan typ av användarprofilering för att samla in data. Alla inkommande uppgifter anonymiseras, vilket säkerställer att användarna inte kan spåras på något sätt baserat på detta."
+      },
+      {
+        "name": "Anpassad händelsespårning",
+        "content": "Förutom att spåra sidvisningar erbjuder vi också möjligheten att spåra anpassade händelser.\nDu kan spåra vilken händelse som helst, t.ex. knapp klickar, registreringar eller auktoriseringar.\nAllt detta är också helt privat för användaren, eftersom vi inte lagrar någon annan information om dem tillsammans med händelserna.\nDu kan läsa mer om anpassade händelser i vår dokumentation."
+      },
+      {
+        "name": "Hastighet",
+        "content": "Vi är snabba. Vårt analysskript är så optimerat som möjligt och använder CDNs för sin leverans, vilket garanterar att skriptet inte saktar ner dina webbplatser."
+      },
+      {
+        "name": "Förtroende",
+        "content": "Vi är ett litet företag inte ett stort företag.\nVi är intresserade av att skapa en bra och högkvalitativ produkt som kommer att användas av nöjda kunder, inte av att pressa ut så mycket pengar som möjligt från våra användare eller sälja dina personlig data."
+      }
+    ]
+  },
+  "profileSettings": {
+    "general": "Allmänna inställningar",
+    "update": "Uppdatera profil",
+    "email": "E-postrapporter",
+    "timezone": "Tidszon preferens",
+    "frequency": "Hur ofta ska vi skicka dig en e-postsammanfattning om dina webbplatser?",
+    "noLink": "Fick du ingen länk för att bekräfta e-postadressen? Begär en ny!",
+    "requestExport": "Begär export av data",
+    "delete": "Ta bort konto",
+    "deactivateConfirmation": "Är du säker på att du vill inaktivera ditt konto?\nAlla dina uppgifter kommer att tas bort permanent från våra servrar för alltid.\nDenna åtgärd kan inte göras ogjord.",
+    "exportConfirmation": "I enlighet med artikel. 20 i den allmänna dataskyddsförordningen (GDPR) har du rätt att få dina persondata som vi lagrar. Denna rapport innehåller inte uppgifter om händelser per projekt.\nDatarapporten kommer att skickas till din e-postadress.\nObservera: du kan begära dataexport endast en gång per två veckor.",
+    "dataExport": "Exportera data",
+    "aDelete": "Ta bort mitt konto",
+    "qDelete": "Ta bort ditt konto?",
+    "weekly": "Veckovis",
+    "monthly": "Månadsvis",
+    "never": "Aldrig",
+    "reportSent": "GDPR datarapporten har skickats till din e-postadress.",
+    "tryAgainInXDays": "Försök igen senare. Du kan begära GDPR-export endast en gång per {{amount}} dagar.",
+    "updated": "Dina kontoinställningar har uppdaterats",
+    "confTimeout": "Ett e-post har redan skickats, kontrollera din brevlåda eller försök igen om några minuter",
+    "confSent": "En länk för kontobekräftelse har skickats till din e-post",
+    "noConfLeft": "Tyvärr har du slut på dina förfrågningar om bekräftelse via e-post.\nSe till att du kan ta emot e-post och kontrollera din SPAM-mapp igen för meddelanden.\nDu kan försöka använda en annan e-postadress eller kontakta vår kundtjänst.",
+    "timezoneDesc": "Detta kommer att vara den tidszon där data visas. Den används endast för visualisering.\nInga data kommer att ändras baserat på denna inställning.",
+    "quitProject": "Are you sure you want to quit this project?",
+    "quitProjectTitle": "Quit {{project}}?",
+    "shared": "Shared projects",
+    "sharedTable": {
+      "project": "Project",
+      "role": "Role",
+      "joinedOn": "Joined on"
+    },
+    "noSharedProjects": "Nobody is sharing a project with you yet.",
+    "2fa": "Two-factor authentication (2FA)",
+    "2faEnable": "Enable 2FA to make your account more secure.",
+    "2faEnableBtn": "Enable 2FA",
+    "2faDisableBtn": "Disable 2FA",
+    "2faDesc": "An authenticator app that supports time-based, one-time passwords (TOTP) such as andOTP or Google Authenticator can scan the QR code below to enable 2FA on your Swetrix account:",
+    "2faQRAlt": "Can't scan the QR code?\nUse this secret key instead: {{key}}",
+    "enter2faToEnable": "Enter your one-time code to enable 2FA",
+    "enter2faToDisable": "Enter your one-time code or a recovery code",
+    "yourOneTimeCode": "Your one-time code",
+    "invalid2fa": "Invalid 2FA code, please try again",
+    "2faRecoveryNote": "Important: If you cannot use your authenticator app, because you've deleted the app or lost your device, you'll need a way to access your account and disable 2FA.\n\nYou can use this recovery code to disable 2FA. Write it down and store it in a safe, secure place.",
+    "2faRecoverySaved": "I have saved this recovery code",
+    "2faEnabled": "Two-factor authenticated is enabled on your account.",
+    "2faDisableHint": "To disable two-factor authentication, please enter your 6-digit code or one of your recovery codes below."
+  },
+  "dashboard": {
+    "newProject": "Nytt projekt",
+    "verifyEmailTitle": "Vänligen verifiera e-postadressen först",
+    "verifyEmailDesc": "För att börja använda vår tjänst och skapa dina projekt måste du först bekräfta din e-postadress.\n\nEn länk för att bekräfta ditt konto har skickats till den e-postadress som du angav vid din registrering. Om länken inte levererades kan du begära den igen i dina kontoinställningar.",
+    "lowEventsTitle": "Du håller på att få slut på händelser!",
+    "lowEventsDesc": "You have used more than 85% of the available events per your tier for this month.\nThat means that in case you use 100% of the available events until the end of the month, all the subsequent traffic will not be saved.\nTo avoid this we recommend that you update your tier on the Billing page.",
+    "eventsXPercUsed": "Du har använt mer än {{amount}}% av de tillgängliga evenemangen per din nivå för denna månad.",
+    "noProjects": "Du har ännu inte skapat några projekt",
+    "createProject": "Skapa ett nytt projekt här för att börja använda vår tjänst",
+    "active": "Aktiv",
+    "public": "Publik",
+    "shared": "Shared",
+    "disabled": "Inaktiverat",
+    "pageviews": "Sidvisningar",
+    "unique": "Unika vyer",
+    "createdAt": "Skapad på",
+    "inc": "Ökad med",
+    "dec": "Minskat med",
+    "liveVisitors": "Live-besökare",
+    "bounceRate": "Studsfrekvens",
+    "invitationFor": "Invitation for {{project}}",
+    "invitationDesc": "You have been invited to join the project {{project}}.\nYou can either accept the invitation here or reject it in your account settings."
+  },
+  "docs": {
+    "titles": {
+      "start": "Komma igång",
+      "umd": "UMD",
+      "npm": "NPM Paket",
+      "int": "Integrationer",
+      "how": " Hur-till",
+      "pv": "Spåra sidvisningar",
+      "ce": "Spåra anpassade händelser",
+      "api": "API"
+    },
+    "install": "Du kan också installera spårningsskriptet med NPM eller Yarn",
+    "import": "Därefter ska du importera modulen till projektets root, till exempel",
+    "track": "Efter det kan du spåra vad du vill.\nLäs den detaljerade dokumentationen om spårningsparametrar nedan.",
+    "integrations": "Vi stöder följande integrationer (klicka på titeln för detaljer)",
+    "pv": "Swetrix.js spårningsskriptet ger ett sätt att samla in en sidvy händelse när sidan har laddats.\nDetta kan åstadkommas genom att anropa <link>trackViews()</link> funktion:",
+    "ce": "Förutom att spåra sidvisningar har vi möjlighet att spåra anpassade händelser.\nOm du till exempel vill spåra en händelse som \" Registrering \" eller \"Nyhetsbrev prenumeration \", Denna funktion skulle vara mycket användbar.\nUnder skärmen är principen för den här funktionen likadan som för trackViews.",
+    "init": "Denna funktion används för att initiera analytics.\nI princip låter du skriptet veta vilket projekt du vill använda det med, och du anger dina anpassade parametrar om det behövs.",
+    "tr": "Med den här funktionen kan du spåra alla anpassade händelser du vill.\nDu bör aldrig skicka identifierbara data ( t.ex. användar-ID, e-post, sessionscookie osv.) som ett händelsenamn.\nDet totala antalet spårningssamtal och deras konverteringsgrad kommer att sparas.",
+    "tv": {
+      "call": "Kalla trackViews för att skicka data om användaren till våra servrar.\nDessa data kommer att inkludera följande parametrar om tillgängliga:\n",
+      "gather": "På serversidan samlar vi också in användarens IP-adress och User Agent.\nDessa uppgifter används för att upptäcka om sidvy är unik eller inte.\n<b>Vi lagrar INTE varken IP-adress eller User Agent som råa strängar</b>, utan dessa data lagras som en saltad hash i högst 30 minuter eller 12:00 AM UTC, vad som än händer först.\nEfter denna tidsram raderas de identifierbara data för alltid från våra servrar.",
+      "params": {
+        "pid": "det unika projekt-ID är relaterat till.",
+        "lc": "användare språk (t.ex. sv_SE eller uk_UA).",
+        "tz": "användarnas tidszon (t.ex. Europa/Helsingfors).",
+        "ref": "URL för den föregående webbsidan från vilken en sida öppnades.",
+        "so": "Sidkällan ('ref' | 'source' | 'utm_source' GET param).",
+        "me": "UTM medium ('utm_medium' GET param).",
+        "ca": "UTM campaign ('utm_campaign' GET param).",
+        "pg": "den sida användaren för närvarande visar (t.ex. /hello)."
+      }
+    },
+    "tvReturn": "Funktionen trackViews returnerar ett objekt med några metoder som gör att du kan ändra sidspårningens beteende.",
+    "contents": "Innehåll"
+  },
+  "notFoundPage": {
+    "title": "Sidan hittades inte",
+    "description": "Tyvärr, vi kunde inte hitta sidan du letar efter.\nKontrollera webbadressen i adressfältet och försök igen.",
+    "goHome": "Gå till huvudsidan",
+    "support": "Kontakta support"
+  },
+  "project": {
+    "ad": "Vill du ha denna statistik för din webbplats?",
+    "noExist": "Det valda projektet finns inte",
+    "exportData": "Exportera",
+    "asImage": "Som bild",
+    "asCSV": "Som CSV",
+    "noEvTitle": "Inga händelser ännu",
+    "showAll": "Visa alla händelser",
+    "noEvContent": "Inga händelser har registrerats under den angivna tidsramen.\nOm du inte har spårat några händelser ännu kan du kolla in våra <link>Docs</link> för att enkelt integrera spårning i din app.",
+    "mapping": {
+      "cc": "Land",
+      "pg": "Sida",
+      "lc": "Språk",
+      "ref": "Hänvisare",
+      "dv": "Enhetstyp",
+      "br": "Webbläsare",
+      "os": "OS-namn",
+      "lt": "Lasttid"
+    },
+    "overview": "Översikt",
+    "weeklyStats": "Veckovis statistik",
+    "statsFor": "Statistik för",
+    "event": "Händelse",
+    "quantity": "Kvantitet",
+    "conversion": "Konversion",
+    "ratio": "Förhållande",
+    "customEv": "Anpassade händelser",
+    "noParamData": "Ingen data för denna parameter ännu",
+    "prev": "Föregående",
+    "next": "Nästa",
+    "unique": "Unika besökare",
+    "total": "Totala sidvisningar",
+    "today": "Idag",
+    "yesterday": "Igår",
+    "last24h": "Senaste 24 timmarna",
+    "lastXDays": "Senaste {{amount}} dagarna",
+    "lastXWeeks": "Senaste {{amount}} veckorna",
+    "lastXMonths": "Senaste {{amount}} månaderna",
+    "custom": "Annat datum",
+    "hour": "Timme",
+    "day": "Dag",
+    "week": "Vecka",
+    "month": "Månad",
+    "settings": {
+      "verify": "Vänligen verifiera din e-postadress först",
+      "updated": "Projektets inställningar var uppdaterats",
+      "created": "Projektet har skapats",
+      "pxCharsError": "Projektnamnet kan inte vara längre än {{amount}} tecken.",
+      "oxCharsError": "En lista över tillåtna ursprung måste vara mindre än {{amount}} symboler.",
+      "noNameError": "Vänligen ange projektnamn.",
+      "create": "Skapa ett nytt projekt",
+      "settings": "Inställningar av",
+      "name": "Projektnamn",
+      "pid": "Projekt Id",
+      "origins": "Tillåtna ursprung",
+      "originsHint": "En lista över ursprung (domäner) som får använda skript med ditt ProjectID, separerade med kommatecken.\nLämna den tom om du vill tillåta alla ursprung (standardinställning).\nExempel: cornell.edu, app.example.com, ssu.gov.ua",
+      "enabled": "Projekt aktiverat",
+      "public": "Instrumentpanelen är offentlig",
+      "enabledHint": "Inaktiverade projekt kommer inte att räkna några nya händelser eller sidvisningar.\nDu kommer fortfarande att kunna få tillgång till projektets analytics i instrumentpanelen.",
+      "publicHint": "Om du markerar detta kan alla på internet (inklusive Google) se projektets instrumentpanel.\nEndast projektets administratör kan ändra inställningarna.",
+      "createHint": "*Du kommer att kunna ställa in ditt projekt mer grundligt efter att du har skapat det",
+      "delete": "Ta bort projekt",
+      "qDelete": "Ta bort projektet?",
+      "deleteHint": "Genom att trycka på \"Ta bort projekt\" förstår du att denna åtgärd är oåterkallelig.\nProjektet och alla data relaterade till det kommer att raderas från våra servrar.",
+      "noPeople": "No people have been added to this project yet.",
+      "removeMember": "Remove member",
+      "removeConfirm": "Are you sure you want to stop sharing your project with this user?",
+      "removeUser": "Remove {{user}}?",
+      "people": "People",
+      "inviteCoworkers": "Invite your coworkers",
+      "invite": "Invite a user",
+      "inviteTo": "Invite a user to {{project}}",
+      "inviteDesc": "Enter an email address and a role of the person you want to share your project with.\nWe shall contact them over email to offer the access to the project.",
+      "inviteExpity": "The invitation will expire in {{amount}} hours.",
+      "role": "Role",
+      "roles": {
+        "admin": {
+          "name": "Administrator",
+          "desc": "Can manage the project's settings, add/remove members, and invite new users.",
+          "shortDesc": "Can manage the project"
+        },
+        "viewer": {
+          "name": "Viewer",
+          "desc": "Has a read-only access to the project.",
+          "shortDesc": "Can only view the project"
+        }
+      },
+      "errorNoRole": "Please select a role."
+    }
+  },
+  "billing": {
+    "title": "Fakturering och planer",
+    "desc": "Det är gratis att komma igång och använda våra tjänster.\nOm du behöver hantera mer trafik behöver du förmodligen uppgradera din plan.\nNedan finns en förteckning över tillgängliga planer. Inga dolda avgifter eller annat BS, allt är tydligt och transparent!",
+    "contact": "Behöver du spåra mer än 1 miljon händelser per månad?\nKontakta oss på <mail>{{email}}</mail> för att diskutera dina behov.",
+    "update": "Uppdatera betalningsuppgifter",
+    "nextBillDate": "Next bill date:"
+  },
+  "pricing": {
+    "title": "Prisplaner",
+    "adv": "Börja gratis, inget kreditkort behövs.\nNär ditt företag växer kan du uppgradera din plan när som helst.",
+    "currentPlan": "Nuvarande plan",
+    "mostPopular": "Mest populär",
+    "free": "Gratis",
+    "perMonth": "må",
+    "perYear": "yr",
+    "yourPlan": "Din plan",
+    "downgrade": "Nedgradera",
+    "upgrade": "Uppgradera",
+    "whatIncl": "Vad ingår",
+    "monthlyBilling": "Monthly billing",
+    "yearlyBilling": "Yearly billing",
+    "switchToMonthly": "Switch to monthly billing",
+    "switchToYearly": "Switch to yearly billing",
+    "tiers": {
+      "hobby": "Hobby",
+      "freelancer": "Frilansare",
+      "startup": "Startup",
+      "enterprise": "Företag",
+      "upToXEVMo": "Upp till {{amount}} händelser per månad.",
+      "xEvMo": "{{amount}} händelser per månad.",
+      "upToXVMo": "Up to {{amount}} visits per month.",
+      "xVMo": "{{amount}} visits per month.",
+      "upToXProjects": "Skapa upp till {{amount}} projekt.",
+      "upToXWebsites": "Add up to {{amount}} websites.",
+      "xMoDataRetention": "{{amount}} månaders lagring av data.",
+      "evXPlanIncl": "Allt {{plan}} plan inkluderar.",
+      "smallBusiSupport": "Genom att köpa denna produkt stöder du ett litet företag.",
+      "dataExports": "Unlimited data exports.",
+      "dataOwnership": "100% data ownership.",
+      "noBanners": "No cookie banners required.",
+      "dashboards": "Shared & Public Dashboards.",
+      "reports": "Email reports."
+    },
+    "downgradeTitle": "Är du säker på att du vill nedgradera?",
+    "downgradeDesc": "Efter nedgraderingen kommer din plan att innehålla färre projekt och tillgängliga evenemang per månad. Om din webbplats har mer trafik än vad som ingår i den plan du vill nedgradera till kommer detta att leda till att alla händelser inte lagras i vår databas.\nDu kommer att kunna återgå till din nuvarande plan när som helst.\nOm du har några frågor kan du alltid skicka ett e-post till oss på {{email}}."
+  },
+  "contact": {
+    "desc": "Har du något att fråga?\nSkicka gärna ett mejl till oss på <mail>{{email}}</mail>"
+  },
+  "beta": {
+    "title": "Beta",
+    "description": "Denna funktion är i Beta-fasen. Använd den med försiktighet eftersom det kan finnas biverkningar."
+  },
+  "titles": {
+    "recovery": "Konto återställning",
+    "signin": "Logga in",
+    "signup": "Registrera dig",
+    "verification": "E-postverifiering",
+    "invitation": "Shared project invitation",
+    "profileSettings": "Profilinställningar",
+    "features": "Funktioner",
+    "dashboard": "Instrumentbräda",
+    "docs": "Dokumentation",
+    "billing": "Fakturering",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "slogan": "De bästa apparna behöver de bästa tjänsterna.",
+    "description": "Swetrix är en kraftfull analytics plattform som respekterar användarnas integritet.",
+    "madeIn": "Tillverkad i",
+    "hostedIn": "Värd i den",
+    "ukraine": "Ukraina",
+    "eu": "Europeiska unionen",
+    "support": "Support",
+    "company": "Företag",
+    "legal": "Laglig",
+    "copy": "Swetrix Analytics. Alla rättigheter förbehållna.",
+    "contact": "Kontakt",
+    "pp": "Integritetspolicy",
+    "tos": "Användarvillkor",
+    "blog": "Blogg",
+    "billing": "Fakturering",
+    "pricing": "Prissättning",
+    "docs": "Dokumentation",
+    "guides": "Guider",
+    "privacy": "Sekretess",
+    "terms": "Villkor",
+    "status": "Status",
+    "donate": "Donera",
+    "about": "About us"
+  }
+}
